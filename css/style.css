@@ -43,6 +43,9 @@ textarea {
 
 body {
   line-height: 1;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: #100c46;
 }
 
 .wrapper {
