@@ -64,3 +64,49 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.header-block_center {
+  text-align: center;
+}
+
+.header-block__label {
+  font-size: 16px;
+  line-height: 1.37;
+  color: #6257fe;
+}
+
+.header-block__label:not(:last-child) {
+  margin: 0px 0px 7px 0px;
+}
+
+.header-block__title {
+  font-family: Overpass;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.26;
+}
+
+.header {
+  z-index: 50;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__logo {
+  padding: 17px 0px 17px 20px;
+}
+
+.social-header {
+  padding: 20px;
+  display: flex;
+  background-color: #6257fe;
+}
+
+.social-header__item:not(:last-child) {
+  margin: 0px 25px 0px 0px;
+}
