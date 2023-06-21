@@ -491,3 +491,33 @@ body {
     gap: 30px;
   }
 }
+
+/* ------------------------------- */
+
+.portfolio {
+  padding: 145px 0;
+}
+
+.portfolio__header {
+  margin: 0px 0px 60px 0px;
+}
+
+.portfolio__items {
+  display: grid;
+  gap: 23px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.portfolio__item {
+  position: relative;
+  padding: 0px 0px 135% 0px;
+}
+
+.portfolio__item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
