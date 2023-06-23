@@ -613,3 +613,32 @@ body {
   display: flex;
   gap: 13px;
 }
+
+@media (max-width: 1200px) {
+  .team {
+    padding: 0px 0 50px 0;
+  }
+
+  .team__header {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .team__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .team__items {
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .team__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
