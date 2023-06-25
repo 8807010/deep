@@ -827,3 +827,46 @@ textarea.form__input {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+/*-----------------------*/
+
+.footer {
+  padding: 110px 0px 80px 0px;
+}
+
+.footer__body {
+  position: relative;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copy {
+  text-align: center;
+}
+
+.footer__up {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  flex: 0 0 70px;
+  z-index: 2;
+  background: #6257fe url('../img/icons/chevron-up.svg') center no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  .footer {
+    padding: 40px 0px 40px 0px;
+  }
+
+  .footer__body {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+
+  .footer__up {
+    position: static;
+  }
+}
